@@ -11,9 +11,9 @@ const cookieParser = require('cookie-parser')
 app.use(
   cors({
     origin: [
-      'https://bejewelled-douhua-8a827a.netlify.app',
-      'https://beautiful-kitten-3092b0.netlify.app',
-      'https://storied-cendol-ec70d2.netlify.app',
+      'https://elaborate-gingersnap-03285c.netlify.app',
+      'https://elegant-squirrel-982e74.netlify.app',
+      'https://voluble-eclair-e834ca.netlify.app',
       'http://127.0.0.1:3000',
       'http://127.0.0.1:3001',
       'http://127.0.0.1:3002',
