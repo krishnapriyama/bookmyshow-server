@@ -22,7 +22,7 @@ app.use(
       'http://localhost:3002'
     ],
     method: ['GET', 'POST', 'PUT', 'PATCH'],
-    credentials: true,
+    Credentials: true,
   }),
 )
 
