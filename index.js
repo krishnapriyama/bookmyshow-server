@@ -17,6 +17,9 @@ app.use(
       'http://localhost:3000',
       'http://localhost:3001',
       'http://localhost:3002',
+      'https://charming-pasca-2f9998.netlify.app',
+      'https://unique-madeleine-0563d5.netlify.app',
+      'https://jolly-sable-ed07de.netlify.app'
     ],
     method: ['GET', 'POST', 'PUT', 'PATCH'],
     credentials: true,
