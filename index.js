@@ -12,16 +12,14 @@ app.use(
   cors({
     origin: [
       'https://bejewelled-douhua-8a827a.netlify.app',
+      'https://beautiful-kitten-3092b0.netlify.app',
+      'https://storied-cendol-ec70d2.netlify.app',
       'http://127.0.0.1:3000',
       'http://127.0.0.1:3001',
       'http://127.0.0.1:3002',
       'http://localhost:3000',
       'http://localhost:3001',
-      'http://localhost:3002',
-      'https://charming-pasca-2f9998.netlify.app',
-      'https://unique-madeleine-0563d5.netlify.app',
-      'https://jolly-sable-ed07de.netlify.app',
-
+      'http://localhost:3002'
     ],
     method: ['GET', 'POST', 'PUT', 'PATCH'],
     credentials: true,
