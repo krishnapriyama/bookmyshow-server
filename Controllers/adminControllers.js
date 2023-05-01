@@ -17,21 +17,17 @@ module.exports.adminLogin = async (req, res, next) => {
       bcrypt.compare(password, admin.password, function (err, result) {
         if (result === true) {
           const token = jwt.sign({ email }, 'SuperSecretKey')
-          res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3001')
           res.json({ created: true, token })
         } else {
-          res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3001')
           res.json({ error: 'Invalid email or password' })
           console.log('Passwords do not match.')
         }
       })
     } else {
-      res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3001')
       res.json({ error: 'Invalid email or password' })
     }
   } catch (error) {
     console.log(error)
-    res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3001')
     res.send(error)
   }
 }
