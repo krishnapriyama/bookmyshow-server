@@ -66,18 +66,15 @@ module.exports.login = async (req, res, next) => {
             res.json({ created: true, token })
           }
         } else {
-          res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3000')
           res.json({ error: 'Invalid email or password' })
           console.log('Passwords do not match.')
         }
       })
     } else {
-      res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3000')
       res.json({ error: 'Invalid email or password' })
     }
   } catch (error) {
     console.log(error)
-    res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3000')
     res.send(error)
   }
 }
