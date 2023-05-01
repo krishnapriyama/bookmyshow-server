@@ -11,6 +11,7 @@ const cookieParser = require('cookie-parser')
 app.use(
   cors({
     origin: [
+      'https://bejewelled-douhua-8a827a.netlify.app',
       'http://127.0.0.1:3000',
       'http://127.0.0.1:3001',
       'http://127.0.0.1:3002',
@@ -19,7 +20,8 @@ app.use(
       'http://localhost:3002',
       'https://charming-pasca-2f9998.netlify.app',
       'https://unique-madeleine-0563d5.netlify.app',
-      'https://jolly-sable-ed07de.netlify.app'
+      'https://jolly-sable-ed07de.netlify.app',
+
     ],
     method: ['GET', 'POST', 'PUT', 'PATCH'],
     credentials: true,
