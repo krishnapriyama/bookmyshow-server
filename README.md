@@ -9,29 +9,25 @@ RESTful API
 Prerequisites
 Node.js installed on your machine
 MongoDB (or any other database) installed and running
+
 Getting Started
 Clone the repository:
-bash
-Copy code
 git clone https://github.com/your-username/bookmyshow-server.git
+
 Install the dependencies:
-bash
-Copy code
 cd bookmyshow-server
 npm install
+
 Set up the environment variables:
 Create a .env file in the root directory.
 Define the following environment variables in the .env file:
-plaintext
-Copy code
 DB_CONNECTION_STRING=your-mongodb-connection-string
 PORT=your-server-port
+
 Start the server:
-bash
-Copy code
 npm start
+
 Project Structure
-Copy code
 bookmyshow-server
 ├── controllers
 │   ├── authController.js
@@ -52,6 +48,7 @@ bookmyshow-server
 │   ├── authMiddleware.js
 │   └── ...
 └── app.js
+
 controllers: Contains controller functions responsible for handling requests and responses.
 models: Defines the data models and schemas used by the server.
 routes: Defines the API endpoints and maps them to the corresponding controller functions.
