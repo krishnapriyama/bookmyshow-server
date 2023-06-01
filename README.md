@@ -28,27 +28,6 @@ Start the server:
 npm start
 
 Project Structure
-bookmyshow-server
-├── controllers
-│   ├── authController.js
-│   ├── movieController.js
-│   ├── bookingController.js
-│   └── ...
-├── models
-│   ├── User.js
-│   ├── Movie.js
-│   ├── Booking.js
-│   └── ...
-├── routes
-│   ├── authRoutes.js
-│   ├── movieRoutes.js
-│   ├── bookingRoutes.js
-│   └── ...
-├── middleware
-│   ├── authMiddleware.js
-│   └── ...
-└── app.js
-
 controllers: Contains controller functions responsible for handling requests and responses.
 models: Defines the data models and schemas used by the server.
 routes: Defines the API endpoints and maps them to the corresponding controller functions.
