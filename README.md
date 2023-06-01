@@ -12,7 +12,7 @@ MongoDB (or any other database) installed and running
 
 Getting Started
 Clone the repository:
-git clone https://github.com/your-username/bookmyshow-server.git
+git clone (https://github.com/krishnapriyama/bookmyshow-server.git)
 
 Install the dependencies:
 cd bookmyshow-server
