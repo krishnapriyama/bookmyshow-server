@@ -27,7 +27,7 @@ PORT=your-server-port
 Start the server:
 npm start
 
-Project Structure 
+Project Structure \n
 controllers: Contains controller functions responsible for handling requests and responses.
 models: Defines the data models and schemas used by the server.
 routes: Defines the API endpoints and maps them to the corresponding controller functions.
